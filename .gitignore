@@ -21,4 +21,4 @@ Thumbs.db
 output/
 
 # 개발용 파일
-test.txt
+tests/

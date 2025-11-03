@@ -1,7 +1,7 @@
 import os
 import argparse
-from parser import parse_tree_structure, parse_indent_structure
-from builder import build_structure
+from .parser import parse_tree_structure, parse_indent_structure
+from .builder import build_structure
 
 def main():
     parser = argparse.ArgumentParser(description="Generate a C project skeleton with template code.")

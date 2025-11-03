@@ -1,7 +1,7 @@
 # build_structure & create files
 
 import os
-from generator import generate_main_template, generate_source_template, generate_header_template
+from .generator import generate_main_template, generate_source_template, generate_header_template
 
 def collect_headers(tree, base_path=""):
     """트리에서 모든 .h 파일의 상대 경로를 수집"""

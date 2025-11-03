@@ -22,3 +22,19 @@ output/
 
 # 개발용 파일
 tests/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# OS/IDE
+.DS_Store
+.vscode/
+*.swp
